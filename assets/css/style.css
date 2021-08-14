@@ -1,0 +1,51 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input,
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container-login {
+    width: 100%;
+    height: 100%;
+}
+
+.image-background-login {
+    width: 750px;
+    z-index: 1;
+}
+
+.container-inputs-login {
+    width: 31%;
+    height: 70%;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: grey;
+    border: 1px solid grey;
+    z-index: 2;
+    right: 50px !important;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.logo-login {
+    width: 50%;
+    margin-top: 25px;
+}
+
+.inputs-login {
+    height: 40px;
+    background-color: rgb(240, 240, 240);
+    margin-top: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
+.inputs-login:focus {
+    outline: 0;
+}
