@@ -16,17 +16,40 @@
 </head>
 
 <body>
-    <div class="main-container-login">
-        <div class="container-inputs-login uk-position-center">
-            <img class="logo-login uk-align-center" src="./assets/images/Logo-Tienda-724-sin-slogan.png" alt="">
-            <div class="uk-flex uk-flex-column">
-                <input class="inputs-login uk-text-center" placeholder="Usuario" type="text" name="" id="">
-                <input class="inputs-login uk-text-center" placeholder="Contraseña" type="text">
+    <div style="display: none;">
+        <div class="main-container-login">
+            <div class="container-inputs-login uk-position-center uk-box-shadow-medium">
+                <img class="logo-login uk-align-center" src="./assets/images/Logo-Tienda-724-sin-slogan.png" alt="">
+                <div class="uk-flex uk-flex-column">
+                    <input class="inputs-login uk-text-center" placeholder="Usuario" type="text" name="" id="">
+                    <input class="inputs-login uk-text-center" placeholder="Contraseña" type="text">
+                </div>
+                <button class="button-login uk-align-center uk-margin-remove-bottom">INICIAR SESIÓN</button>
+                <h6 class="uk-margin-remove font-size-10 uk-text-center padding-vertical-15 color-red cursor-pointer">¿Olvidaste tu contraseña?</h6>
             </div>
-            <button>INICIAR SESIÓN</button>
+            <img class="image-background-login uk-position-bottom-right" src="./assets/images/recurso-fondo-tienda-724.jpg" alt="">
         </div>
-        <img class="image-background-login uk-position-bottom-right" src="./assets/images/recurso-fondo-tienda-724.jpg" alt="">
     </div>
+    <!-- Recuperar la contraseña -->
+    <div style="display: inline;">
+        <div class="main-container-login">
+            <div class="container-inputs-login uk-position-center uk-box-shadow-medium">
+                <img class="logo-login uk-align-center" src="./assets/images/Logo-Tienda-724-sin-slogan.png" alt="">
+                <div class="uk-flex uk-flex-column">
+                    <input class="inputs-login uk-text-center uk-position-absolute" placeholder="Usuario" type="text" name="" id="">
+                    <div uk-toggle="target: .eyes-active" class="uk-position-relative">
+                        <img class="image-eyes eyes-active" src="./assets/icons/Ojo-inactivo.png" alt="" hidden>
+                        <img class="image-eyes eyes-active" src="./assets/icons/Ojo-activo.png" alt="">
+                    </div>
+                </div>
+                <button class="button-send uk-align-center uk-margin-remove-bottom">Enviar</button>
+                <h6 class="uk-margin-remove font-size-10 uk-text-center padding-vertical-15 color-red cursor-pointer">Regresar</h6>
+            </div>
+            <img class="image-background-login uk-position-bottom-right" src="./assets/images/recurso-fondo-tienda-724.jpg" alt="">
+        </div>
+    </div>
+
+
 
     <!-- UIkit JS -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.2/dist/js/uikit.min.js"></script>
