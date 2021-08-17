@@ -21,8 +21,8 @@ p {
 }
 
 .container-inputs-login {
-    width: 31%;
-    height: 70%;
+    width: 390px;
+    height: 420px;
     border-radius: 15px;
     background-color: white;
     border: 1px solid rgb(201, 201, 201);
@@ -91,6 +91,7 @@ p {
     padding-left: 50px;
     padding-right: 50px;
     cursor: pointer;
+    margin-top: 90px;
 }
 
 .button-send {
@@ -98,5 +99,129 @@ p {
 }
 
 .image-eyes {
-    width: 25px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
+.font-weight-600 {
+    font-weight: 600;
+}
+
+.logo-login-reset-password {
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.inputs-login-eyes {
+    height: 40px;
+    width: 308px;
+    background-color: rgb(240, 240, 240);
+    margin-top: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
+.inputs-login-eyes:focus {
+    outline: 0;
+}
+
+.icons-eyes {
+    top: -35px;
+    left: 270px;
+}
+
+.modal-email {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 160px !important;
+    border-radius: 8px;
+    border: 1px solid rgb(226, 226, 226);
+    top: 150px;
+    left: 200px;
+}
+
+.padding-horizontal-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.font-weight-700 {
+    font-weight: 700;
+}
+
+.color-green {
+    color: #4C9B6E;
+}
+
+#modal-email {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+#modal-pass-change {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.button-send-two {
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FE0202;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.font-size-9 {
+    font-size: 9px;
+}
+
+.icon-error {
+    width: 2.5px;
+    margin-right: 5px;
+}
+
+.container-inputs-reset-pass {
+    width: 390px;
+    height: 510px;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid rgb(201, 201, 201);
+    z-index: 2;
+    right: 50px !important;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.inputs-login-reset-pass {
+    height: 40px;
+    width: 308px;
+    background-color: rgb(240, 240, 240);
+    margin-top: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
+.inputs-login-reset-pass:focus {
+    outline: 0;
+}
+
+.inputs-login-reset-pass-two {
+    height: 40px;
+    width: 308px;
+    background-color: rgb(240, 240, 240);
+    margin-top: 8px;
+    border-radius: 8px;
+    border: none;
+}
+
+.inputs-login-reset-pass-two:focus {
+    outline: 0;
 }
