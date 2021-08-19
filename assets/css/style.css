@@ -39,7 +39,7 @@ p {
 
 .inputs-login {
     height: 40px;
-    background-color: rgb(240, 240, 240);
+    background-color: rgba(245, 245, 245, 0.945);
     margin-top: 8px;
     border-radius: 8px;
     border: none;
@@ -120,7 +120,7 @@ p {
 .inputs-login-eyes {
     height: 40px;
     width: 308px;
-    background-color: rgb(240, 240, 240);
+    background-color: rgba(245, 245, 245, 0.945);
     margin-top: 8px;
     border-radius: 8px;
     border: none;
@@ -141,7 +141,7 @@ p {
     padding-bottom: 20px;
     width: 160px !important;
     border-radius: 8px;
-    border: 1px solid rgb(226, 226, 226);
+    border: 1px solid rgba(245, 245, 245, 0.945);
     top: 150px;
     left: 200px;
 }
@@ -203,7 +203,7 @@ p {
 .inputs-login-reset-pass {
     height: 40px;
     width: 308px;
-    background-color: rgb(240, 240, 240);
+    background-color: rgba(245, 245, 245, 0.945);
     margin-top: 8px;
     border-radius: 8px;
     border: none;
@@ -216,7 +216,7 @@ p {
 .inputs-login-reset-pass-two {
     height: 40px;
     width: 308px;
-    background-color: rgb(240, 240, 240);
+    background-color: rgba(245, 245, 245, 0.945);
     margin-top: 8px;
     border-radius: 8px;
     border: none;
@@ -224,4 +224,8 @@ p {
 
 .inputs-login-reset-pass-two:focus {
     outline: 0;
+}
+
+.color-grey {
+    color: rgb(185, 185, 185);
 }
